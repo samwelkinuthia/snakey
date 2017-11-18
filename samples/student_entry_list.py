@@ -1,6 +1,6 @@
 students = []
 while True:
-    print('Enter student ' + str(len(students) + 1) + '(Or you can stop if full): ')
+    print('Enter student ' + str(len(students) + 1) + '(leave blank to stop): ')
     name = input()
     if name == '':
         break

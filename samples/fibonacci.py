@@ -1,5 +1,4 @@
 from functools import lru_cache
-#store previous fibo results in cache
 
 @lru_cache(maxsize = 1000)
 
@@ -13,4 +12,4 @@ def fibo(n):
 
 n = int(input("Enter nth value: "))
 
-print("The " + str(n) + "th term is",  fibo(n))
+print("The " + str(n) + "th fibonacci term is",  fibo(n))
