@@ -11,7 +11,9 @@ def eureka(x, y):
                 total = int(math.pow(int(i[0]), 1) + math.pow(int(i[1]), 2))
             elif len(i) == 3:
                 total = int(math.pow(int(i[0]), 1) + math.pow(int(i[1]), 2) + math.pow(int(i[2]), 3))
+            elif len(i) == 4:
+                total = int(math.pow(int(i[0]), 1) + math.pow(int(i[1]), 2) + math.pow(int(i[2]), 3) + math.pow(int(i[3]), 4))
             if str(total) == i:
                 out.append(int(total))
     return out
-print(eureka(89,135))
+print(eureka(1, 2000))
