@@ -1,9 +1,6 @@
 def terminal_writer():
-    print("Enter the file name")
-    name=str(input())
-
-    print("what do you want to write?")
-    text=str(input())
+    name = input("Enter the file name: ")
+    text = input("What do you want to write?: ")
 
     fw=open(name +".txt", "w")
     fw.write(text)
