@@ -1,10 +1,4 @@
 def find(n):
-
-# check for the common difference
-# new array using the common difference
-# check for difference between the two
-# return the difference
-
     dif = n[1] - n[0]
     diff = n[2] - n[1]
     minm = min(diff, dif)
