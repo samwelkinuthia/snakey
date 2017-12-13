@@ -11,6 +11,5 @@ def counter(words):
 
 words = input("Enter the sentence you want to be counted: ")
 
-
 pprint.pprint(counter(words))
 
