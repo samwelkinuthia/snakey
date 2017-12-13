@@ -4,9 +4,7 @@ number = random.randint(1, 10)
 print("im thinking of a number")
 
 for i in range(1, 10):
-    print("take a guess")
-    guess = int(input())
-
+    guess = int(input("Take a guess: "))
     if guess < number:
         print("your guess is too low")
     elif number > guess and ((number - guess) < 2):
