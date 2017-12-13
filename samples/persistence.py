@@ -9,4 +9,4 @@ def persistence(n):
         count += 1
     return count
 
-print(persistence(39))
+print(persistence(39)
