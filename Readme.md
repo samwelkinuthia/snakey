@@ -9,7 +9,7 @@ Click on samples for problem descriptions and info.
 
 ## Installing
 
-### Prequisites
+### Prerequisites
 
 * Python 3 - You can find download files and instructions [here](https://www.python.org/downloads/)
 
