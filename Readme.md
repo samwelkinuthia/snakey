@@ -1,6 +1,10 @@
 ## My python practice scripts
 Just for fun
 
+Click on samples for problem descriptions and info.
+
+
+
 <pre style="font: 10px/5px monospace;">                                       `;+',                                                                  
                                      ;:  `  :'                   ;++;`                                        
                                     + `;';''` +                +` ``` ',                                      
