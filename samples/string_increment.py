@@ -1,9 +1,3 @@
-# fetch the string
-# Check whether it ends with a number
-# If so, add 1 to the number
-# If not, add 1 to the string
-# If the number is 0, dont do anything with it
-
 def inc(n):
     x = []
     p = []
