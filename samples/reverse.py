@@ -1,11 +1,14 @@
+import re
+
 def reverse(x):
-    y = x.split()
+    y = re.split(r'(\s+)', x)
+    print(y)
     new = []
     for i in y:
         i = i[::-1]
         new.append(i)
-    return ' '.join(new)
+    return ''.join(new)
 
 
-x = "double  spaces"
+x = "samwel what are you doing??"
 print(reverse(x))
