@@ -4,6 +4,7 @@ def selection_sort(n):
         for i in range(first, len(n)):
             if n[i] < n[first]:
                 n[first], n[i] = n[i], n[first]
+            print(n)
         first += 1
     return n
 
